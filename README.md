@@ -1,12 +1,14 @@
 # xbps-updates
-xbps-updates checker module for polybar <br>
-<img src="https://raw.githubusercontent.com/siduck76/xbps-updates/master/dd_001.png">
+xbps-updates checker module for polybar<br> <img src="https://raw.githubusercontent.com/siduck76/xbps-updates/master/dd_001.png">
+<img src="https://raw.githubusercontent.com/siduck76/xbps-updates/master/full.png">
 
-[module/updates]
+
+
+[module/updates]<br>
 type = custom/script<br>
 exec = xbps-updates<br>
-format = <label><br><br>
-format-prefix = 󰳡<br>
+format = <label><br>
+format-prefix = 󰳡 <br>
 format-prefix-foreground = #DE8C92<br>
 interval = 3600 <br>
 label = %output% <br>
