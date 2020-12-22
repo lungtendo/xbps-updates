@@ -4,11 +4,11 @@ xbps-updates checker module for polybar<br> <img src="https://raw.githubusercont
 
 
 
-[module/updates]
+[module/updates]<br>
 type = custom/script<br>
 exec = xbps-updates<br>
-format = <label><br><br>
-format-prefix = 󰳡 
+format = <label><br>
+format-prefix = 󰳡 <br>
 format-prefix-foreground = #DE8C92<br>
 interval = 3600 <br>
 label = %output% <br>
