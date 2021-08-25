@@ -1,10 +1,10 @@
 [module/updates]
 type = custom/script
-exec = doas xbps-install -S > /dev/null 2>&1; xbps-updates
+exec = cat $HOME/.cache/xbps-updates
 format = <label>
-format-prefix = 󰳡
-format-prefix-foreground = #DE8C92
-interval = 4600 
+format-prefix = 
+; format-prefix-foreground = #DE8C92
+interval = 86400
 label = %output% 
 label-padding = 1
-format-foreground = #D8DEE9     
+; format-foreground = #D8DEE9     
